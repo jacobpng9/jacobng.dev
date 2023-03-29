@@ -7,7 +7,7 @@ const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-gray">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -15,13 +15,12 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<h1><a href="https://www.youtube.com/watch?v=gq5yxshnncA">Hi</a></h1>
+	<h1><a href="https://www.youtube.com/watch?v=gq5yxshnncA" class="text-lightpink">Hi</a></h1>
 	<body>
+		<div class = "text-pink ">ape</div> 
+		<!--  --> 
 		<slot/>
 	</body>
 </html>
 <style is:global>
-	html {
-		background-color: blue;
-	}
 </style>
