@@ -1,6 +1,6 @@
 ---
 export interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
@@ -8,19 +8,28 @@ const { title } = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en" class="bg-gray">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<h1><a href="https://www.youtube.com/watch?v=gq5yxshnncA" class="text-lightpink">Hi</a></h1>
-	<body>
-		<div class = "text-pink ">ape</div> 
-		<!--  --> 
-		<slot/>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+
+  <body>
+	<nav class="flex justify-between">
+      <div class="">
+        <div class="text-pink p-6  text-xl" >Jacob Ng</div>
+      </div>
+		<div class= "flex ">
+			<a class="text-pink p-6 text-xl" href="../">Home</a>
+			<a class="text-pink p-6 text-xl" href="about">About</a>
+		</div>
+	 
+	</nav>
+    <a href="https://www.youtube.com/watch?v=gq5yxshnncA" class="text-lightpink"
+      >Hi</a>
+    <slot />
+  </body>
 </html>
-<style is:global>
-</style>
+<style is:global></style>

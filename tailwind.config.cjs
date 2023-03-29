@@ -8,6 +8,9 @@ module.exports = {
         pink: "#D74894",
         lightpink: "#EFB6D4",
       },
+	  fontFamily: {
+		
+	  }
     },
   },
   plugins: [],
