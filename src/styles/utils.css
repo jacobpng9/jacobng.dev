@@ -33,7 +33,7 @@
 }
 :root {
   --jbg:  #0d1117;
-  --jpink: #d74894;
+  --jpink: #FF69B4;
     --jpurple: #9773ff;
   --jlightpink: #efceff;
 }
@@ -49,6 +49,12 @@ a {
 .background {
     background-color: var(--jbg);
 }
+
+.subheader {
+  font-family: 'Hubot Sans', "Roboto", sans-serif;
+  font-size: 2vw
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -70,13 +76,35 @@ a {
 }
 
 .text-l {
-    font-size: 4vw;
+    font-size: 4rem;
+}
+.hubot {
+  font-family: 'Hubot Sans', "Roboto", sans-serif;
+}
+.purple {
+  color: var(--jpurple)
 }
 
 #gradblock {
-    padding: 15vw;
+    display: flex;
+    padding: 17.5vw;
+    line-height: 3.5vw;
 }
 
 #gradblock:hover {
 
+}
+
+#aboutcards {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.card {
+  padding:1.5rem;
+  flex: 1;
+}
+
+.blurb {
+  padding-top: 1.5rem;
 }
