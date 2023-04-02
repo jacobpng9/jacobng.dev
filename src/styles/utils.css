@@ -52,13 +52,16 @@ a {
 
 .subheader {
   font-family: 'Hubot Sans', "Roboto", sans-serif;
-  font-size: 2vw
+  font-size: 2rem
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 1.25rem;
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25vh;
 }
 
 .head {
@@ -81,14 +84,11 @@ a {
 .hubot {
   font-family: 'Hubot Sans', "Roboto", sans-serif;
 }
-.purple {
-  color: var(--jpurple)
-}
 
 #gradblock {
     display: flex;
-    padding: 17.5vw;
-    line-height: 3.5vw;
+    line-height: 3.5rem;
+    height: 90vh;
 }
 
 #gradblock:hover {
