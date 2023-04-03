@@ -88,12 +88,9 @@ a {
 #gradblock {
     display: flex;
     line-height: 3.5rem;
-    height: 90vh;
+    height: 95vh; 
 }
 
-#gradblock:hover {
-
-}
 
 #aboutcards {
   display:flex;
