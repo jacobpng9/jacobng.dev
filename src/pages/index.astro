@@ -1,28 +1,37 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import '../styles/utils.css'
+import "../styles/utils.css";
+import bidoof from "../images/bidoof.jpg";
 ---
 
 <Layout title="Jacob Ng">
-  <main>
-  </main>
+  <main></main> 
 </Layout>
 <div class="center" id="gradblock">
   <div class="">
-    <div class="text-l"> Jacob Ng <br><span class="subheader">High School Junior</span> </div>
-    <div class=""></div>  <!--make text responsive and the image behind it will also be responsive -->
+    <div class="text-l">
+      Jacob Ng <br /><span class="subheader">High School Junior</span>
+    </div>
+    <div class=""></div>
+    <!--make text responsive and the image behind it will also be responsive -->
   </div>
 </div>
 <div id="aboutcards">
-	<div class="card">
-		<section class="blurb" style="font-size: 2rem"><span class="text-l hubot" style="color: var(--jpurple)">Jacob Ng</span><br>Hello! My name is Jacob Ng, a current high school junior at Brophy College Preparatory. Coding is one of my favorite pastimes, and I have been learning all sorts of languages like Java, Python, HTML, CSS, and Javascript since Freshman year. I love music, video games, and fashion. Enjoy the website and my portfolios!
-		</section>
-	</div>
-	<div class="card">
-		<div class="">image</div>
-	</div>
-</div> 
+  <div class="blurbcontainer">
+    <section class="blurb" style="font-size: 2rem">
+      <span class="text-l hubot" style="color: var(--jpurple)">Jacob Ng</span
+      ><br />Hello! My name is Jacob Ng, a current high school junior at Brophy
+      College Preparatory. Coding is one of my favorite pastimes, and I have
+      been learning all sorts of languages like Java, Python, HTML, CSS, and
+      Javascript since Freshman year. I love music, video games, and fashion.
+      Enjoy the website and my portfolios!
+    </section>
+  </div>
+  <div class="imagecontainer">
+    <img src={bidoof} alt="" class="aboutimage" />
+  </div>
+</div>
 
-
+<section>hi</section>
 
 <style></style>

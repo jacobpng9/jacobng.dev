@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @font-face {
-  font-family: 'Hubot Sans';
-  src:
-    url('../fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
-    url('../fonts/Hubot-Sans.woff2') format('woff2-variations');
+  font-family: "Hubot Sans";
+  src: url("../fonts/Hubot-Sans.woff2") format("woff2 supports variations"),
+    url("../fonts/Hubot-Sans.woff2") format("woff2-variations");
   font-weight: 200 900;
   font-stretch: 75% 125%;
   /*ExtraLight Narrow	ExtraLight Narrow Italic	200	75
@@ -32,27 +31,27 @@
     Black Wide	Black Wide Italic	900	125 */
 }
 :root {
-  --jbg:  #0d1117;
-  --jpink: #FF69B4;
-    --jpurple: #9773ff;
+  --jbg: #0d1117;
+  --jpink: #ff69b4;
+  --jpurple: #9773ff;
   --jlightpink: #efceff;
 }
 html {
   background-color: var(--jbg);
-  font-family: "Roboto", sans-serif, 'Hubot Sans';
+  font-family: "Roboto", sans-serif, "Hubot Sans";
   color: var(--jlightpink);
 }
 a {
-    color: var(--jlightpink);
-    text-decoration: none;
+  color: var(--jlightpink);
+  text-decoration: none;
 }
 .background {
-    background-color: var(--jbg);
+  background-color: var(--jbg);
 }
 
 .subheader {
-  font-family: 'Hubot Sans', "Roboto", sans-serif;
-  font-size: 2rem
+  font-family: "Hubot Sans", "Roboto", sans-serif;
+  font-size: 2rem;
 }
 
 .navbar {
@@ -68,39 +67,57 @@ a {
   font-size: 1.5rem;
 }
 .link {
-    padding:1.25rem;
+  padding: 1.25rem;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .text-l {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 .hubot {
-  font-family: 'Hubot Sans', "Roboto", sans-serif;
+  font-family: "Hubot Sans", "Roboto", sans-serif;
 }
 
 #gradblock {
-    display: flex;
-    line-height: 3.5rem;
-    height: 95vh; 
+  display: flex;
+  line-height: 3.5rem;
+  height: 95vh;
 }
-
 
 #aboutcards {
-  display:flex;
-  flex-wrap:wrap;
-  padding: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  justify-content: space-between;
+  gap: 10%;
+  height: 60vh;
 }
 
-.card {
-  padding:1.5rem;
+.aboutimage {
+  aspect-ratio: 1;
+  padding: auto; 
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: #9773ff 1.5vw 1.5vw;;
+}
+
+.blurbcontainer {
   flex: 1;
+  height: 100%;
+}
+
+.imagecontainer {
+  padding: 4vh;
+  flex: 1;
+  height: 100%;
 }
 
 .blurb {
