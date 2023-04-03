@@ -95,6 +95,7 @@ a {
 #aboutcards {
   display:flex;
   flex-wrap:wrap;
+  padding: 10vh;
 }
 
 .card {
