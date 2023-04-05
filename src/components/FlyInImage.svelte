@@ -5,7 +5,6 @@
   import { quintOut } from "svelte/easing";
   let show = false;
 </script>
-
 <div
   id="aboutcards"
   use:viewport={{
@@ -18,6 +17,7 @@
   }}
 >
   {#if show}
+
     <div class="blurbcontainer">
       <section
         class="blurb"

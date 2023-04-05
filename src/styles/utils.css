@@ -66,26 +66,25 @@ a {
   height: 95vh;
 }
 
+.main {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 #aboutcards {
   display: flex;
-  gap: 10%;
   height: 60vh;
-  flex-direction: column;
+  flex-direction: row;
   align-items: start;
-  display: flex;
   justify-content: space-between;
-  width: 900px; 
+  max-width: 900px; 
   text-align: left; 
-  margin: 0 auto 
+  margin: 0 auto;
+  gap:10px;
 }
-@media screen and (min-width:30em){
+@media screen and (max-width:768px){
   #aboutcards {
     flex-direction: column;
-  }
-}
-@media screen and (min-width:48em){
-  #aboutcards {
-    flex-direction: row;
+    max-width: 350px;
   }
 }
 
@@ -98,7 +97,7 @@ a {
 }
 
 .imagecontainer {
-  padding: 4vh;
+
   flex: 1;
   height: 100%;
 }
@@ -106,7 +105,8 @@ a {
 .aboutimage {
   aspect-ratio: 1;
   padding: auto;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
   box-shadow: var(--jlightpink) 1.5vw 1.5vw;
 }
