@@ -1,5 +1,5 @@
 <script lang="ts">
-  import bidoof from "../images/bidoof.jpg";
+  import bidoof from "../images/bidoof.jpeg";
   import viewport from "./useViewportAction";
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";

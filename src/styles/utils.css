@@ -72,19 +72,21 @@ a {
 }
 #aboutcards {
   display: flex;
-  height: 60vh;
+  height: auto;
   flex-direction: row;
-  align-items: start;
+  align-items: center;
   justify-content: space-between;
   max-width: 900px; 
   text-align: left; 
   margin: 0 auto;
-  gap:10px;
+  gap: 5%;
+  padding: 0 20px 20px;
 }
 @media screen and (max-width:768px){
   #aboutcards {
     flex-direction: column;
     max-width: 350px;
+    height:auto;
   }
 }
 
@@ -93,17 +95,16 @@ a {
 .blurbcontainer {
   display:flex;
   flex: 1;
-  height: 100%;
 }
 
 .imagecontainer {
-
+  display: flex;
   flex: 1;
   height: 100%;
+  align-items: center;
 }
 
 .aboutimage {
-  aspect-ratio: 1;
   padding: auto;
   max-width: 100%;
   height: auto;
@@ -112,6 +113,7 @@ a {
 }
 
 .blurb {
-  padding-top: 1.5rem;
+  align-items: center;
+  justify-content: center;
   line-height: 1.6;
 }
