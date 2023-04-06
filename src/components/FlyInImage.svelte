@@ -5,6 +5,7 @@
   import { quintOut } from "svelte/easing";
   let show = false;
 </script>
+
 <div
   id="aboutcards"
   use:viewport={{
@@ -17,19 +18,23 @@
   }}
 >
   {#if show}
-
     <div class="blurbcontainer">
       <section
         class="blurb"
         style="font-size: 18px"
         in:fly={{ easing: quintOut, duration: 1000, delay: 400 }}
       >
-        <span class=" text-l hubot" style="color: var(--jpurple)">About Me</span>
-        <br />Hello! My name is Jacob Ng, a current high school junior at Brophy
-        College Preparatory. Coding is one of my favorite pastimes, and I have
-        been learning all sorts of languages like Java, Python, HTML, CSS, and
-        Javascript since Freshman year. <br><br>I love music, video games, and fashion.
-        Enjoy the website and my portfolios!
+        <span class=" text-l hubot" style="color: var(--jpurple)">About Me</span
+        >
+        <br />
+        While school shootings did rise in Donald Trump and Joe Biden’s presidencies,
+        Barack Obama easily wins. Who else in US history killed Osama Bin Laden,
+        the famous (or infamous) terrorist? Who else drone striked hospitals with
+        children in them in the Middle East, then won the Nobel Peace Prize for it?
+        Obama is THE GOAT of shooting and killing innocent people, just like how
+        he kills the innocent five year olds playing this game. Easy W for Obamna
+        <br /><br />I love music, video games, and fashion. Enjoy the website
+        and my portfolios!
       </section>
     </div>
     <div
