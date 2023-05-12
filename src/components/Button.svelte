@@ -17,7 +17,6 @@
     stroke-width="2"
     stroke="currentColor"
     aria-hidden="true"
-    style="color: var(--jpurple)"
   >
     <path
       stroke-linecap="round"
@@ -38,31 +37,34 @@
     flex-basis: 1;
     padding: 1rem 1rem;
     min-width: max-content;
-    background-color: rgba(64, 79, 84, 0.5);
+    background-color: rgba(20, 8, 23, 0.5);
     text-align: center;
     font-size: 0.875rem;
     font-weight: bold;
     border-radius: 9999px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     transition: all 0.2s;
-    outline: 2px solid rgba(9, 7, 58, 0.5);
+    border: 0;
     outline-offset: 50%;
     position: absolute;
     right: 50%;
-    bottom: 1rem;
+    bottom: 2%;
     z-index: 10;
     aspect-ratio: 1/1;
     transform: translateX(50%);
+    outline: var(--jlightpink) solid 2px;
+    color: var(--jlightpink);
   }
 
   .one-class:hover {
-    background-color: rgba(64, 79, 84, 1);
-    background-opacity: 1;
+    background-color: rgba(65, 25, 74, 0.5);
+    transform: translateX(50%) scale(1.05, 1.05);
+    opacity: 1;
   }
 
   .one-class:active {
     background-color: rgba(64, 79, 84, 0.9);
-    background-opacity: 0.9;
+    opacity: 0.9;
   }
 
   .one-class svg {
