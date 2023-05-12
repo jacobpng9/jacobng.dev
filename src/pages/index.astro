@@ -1,24 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import "../styles/utils.css";
-import FlyInImage from "../components/FlyInImage.svelte"
+import Bidoof from "../components/Bidoof.svelte";
+import Button from "../components/Button.svelte";
 ---
 
 <Layout title="Jacob Ng">
-  <main></main> 
+  <main></main>
 </Layout>
 <div class="center" id="gradblock">
   <div class="">
     <div class="text-l">
-      Jacob Ng <br/><span class="subheader">High School Junior</span>
+      <Button client:load />
+      Jacob Ng <br /><span class="subheader">High School Junior</span>
     </div>
     <div class=""></div>
     <!--make text responsive and the image behind it will also be responsive -->
   </div>
 </div>
 <div class="Main">
-  <FlyInImage client:load />
-  <div></div>
+  <Bidoof client:only />
 </div>
 
 <style></style>
