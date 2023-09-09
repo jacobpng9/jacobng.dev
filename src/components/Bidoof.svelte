@@ -23,6 +23,6 @@
     class="imagecontainer"
     in:fly={{ easing: quintOut, duration: 1000, delay: 400 }}
   >
-    <img src={Bidoof} alt="" class="aboutimage" />
+    <img src={bidoof} alt="" class="aboutimage" />
   </div>
 </FlyIn>
