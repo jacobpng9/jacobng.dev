@@ -1,7 +1,7 @@
 <script lang="ts">
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
-  import bidoof from "../images/jacob.jpg";
+  import bidoof from "../images/bidoof.jpeg";
   import FlyIn from "./FlyIn.svelte";
 </script>
 
@@ -23,6 +23,6 @@
     class="imagecontainer"
     in:fly={{ easing: quintOut, duration: 1000, delay: 400 }}
   >
-    <img src={bidoof} alt="" class="aboutimage" />
+    <img src={Bidoof} alt="" class="aboutimage" />
   </div>
 </FlyIn>
