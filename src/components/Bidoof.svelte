@@ -1,7 +1,7 @@
 <script lang="ts">
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
-  import bidoof from "../images/bidoof.jpeg";
+  import bidoof from "../images/jacob.jpg";
   import FlyIn from "./FlyIn.svelte";
 </script>
 
