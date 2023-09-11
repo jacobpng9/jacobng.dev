@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import "../styles/utils.css";
 import Bidoof from "../components/Bidoof.svelte";
 import Button from "../components/Button.svelte";
+import Art from "../components/Art.svelte";
 ---
 
 <Layout title="Jacob Ng">
@@ -23,9 +24,9 @@ import Button from "../components/Button.svelte";
   <Bidoof client:only />
   <Button client:visible />
    </div>
-   <div class="projects">
-    
-   </div>
 </div>
+<div class="projects">
+<Art  client:visible />
 
+   </div>
 <style></style>

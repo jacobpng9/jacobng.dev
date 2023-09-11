@@ -3,6 +3,7 @@
   import { quintOut } from "svelte/easing";
   import bidoof from "../images/jacob.jpg";
   import FlyIn from "./FlyIn.svelte";
+  import Button from "./Button.svelte";
 </script>
 
 <FlyIn>
@@ -25,4 +26,5 @@
   >
     <img src={bidoof} alt="" class="aboutimage" />
   </div>
+  <Button />
 </FlyIn>
