@@ -12,6 +12,9 @@
   --jpurple: #9773ff;
   --jlightpink: #efceff;
 }
+body {
+  margin:0;
+}
 html {
   background-color: var(--jbg);
   font-family: "Roboto", sans-serif, "Hubot Sans";
@@ -29,13 +32,15 @@ a {
   font-family: "Hubot Sans", "Roboto", sans-serif;
   font-size: 2rem;
 }
-
+#buttonspace {
+    height:5vh;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding-top: 1.25rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-top: 1.25vh;
+  padding-left: 1.25vh;
+  padding-right: 1.25vh;
   padding-bottom: 1.25vh;
 }
 
@@ -43,10 +48,10 @@ a {
   font-size: 1.5rem;
 }
 .link {
-  padding: 1.25rem;
+  padding: 1.25vh;
 }
-
 .center {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,14 +65,18 @@ a {
   font-family: "Hubot Sans", "Roboto", sans-serif;
 }
 
+#JacobNg {
+  height: 90vh;
+}
+
 #gradblock {
   display: flex;
   line-height: 3.5rem;
-  height: 95vh;
+  height: 85vh;
 }
 
 .main {
-  padding-left: 24px; 
+  padding-left: 24px;
   padding-right: 24px;
 }
 #aboutcards {
@@ -76,14 +85,14 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 900px; 
-  text-align: left; 
+  max-width: 900px;
+  text-align: left;
   margin: 0 auto;
   gap: 5%;
   padding: 0px 20px 0px 20px;
-  min-height: 100vh; 
+  min-height: 90vh;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   #aboutcards {
     flex-direction: column;
     max-width: 350px;
@@ -93,12 +102,9 @@ a {
   }
 }
 
-
-
 .blurbcontainer {
-  display:flex;
+  display: flex;
   flex: 1;
-  
 }
 
 .imagecontainer {

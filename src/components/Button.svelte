@@ -1,35 +1,36 @@
 <script>
 </script>
 
-<button
-  class="one-class"
-  on:click={() => {
-    window.scroll({
-      top: window.outerHeight,
-      behavior: "smooth",
-    });
-  }}
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke-width="2"
-    stroke="currentColor"
-    aria-hidden="true"
+<div class="center" id="buttonspace">
+  <button
+    class="one-class"
+    on:click={() => {
+      window.scroll({
+        top: window.innerHeight,
+        behavior: "smooth",
+      });
+    }}
   >
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
-    />
-  </svg>
-</button>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+      />
+    </svg>
+  </button>
+</div>
 
 <style>
   .one-class {
     display: flex;
-    gap: 0.5rem;
     justify-content: center;
     align-items: center;
     width: fit-content;
@@ -46,19 +47,15 @@
     transition: all 0.2s;
     border: 0;
     outline-offset: 50%;
-    position: absolute;
-    right: 50%;
-    bottom: 2%;
     z-index: 10;
     aspect-ratio: 1/1;
-    transform: translateX(50%);
     outline: var(--jlightpink) solid 2px;
     color: var(--jlightpink);
   }
 
   .one-class:hover {
     background-color: rgba(65, 25, 74, 0.5);
-    transform: translateX(50%) scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
     opacity: 1;
   }
 
