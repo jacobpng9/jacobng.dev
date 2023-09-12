@@ -7,7 +7,7 @@
 </script>
 
 <FlyIn>
-  <div class="blurbcontainer">
+  <div class="blurbcontainer ">
     <section
       class="blurb"
       style="font-size: 18px"
