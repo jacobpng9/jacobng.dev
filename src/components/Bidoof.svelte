@@ -30,7 +30,7 @@
       <img src={bidoof} alt="" class="aboutimage" />
     </div>
   </div>
-  <div class="buttoncontainer">
+  <div class="buttoncontainer" in:fly={{ easing: quintOut, duration: 1000, delay: 400 }}>
     <Button number={2}/>
   </div>
 </FlyIn>
