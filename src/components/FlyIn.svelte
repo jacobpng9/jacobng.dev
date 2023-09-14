@@ -1,7 +1,5 @@
 <script lang="ts">
-  
   import viewport from "./useViewportAction";
-  
   import { onMount } from "svelte";
   let mobile = false;
   onMount(() => {
@@ -20,7 +18,7 @@
 </script>
 
 <div
-  id="aboutcards"
+  id="aboutsection"
   use:viewport={{
     onEnter() {
       show = true;
@@ -36,6 +34,7 @@
       clearTimeout(timeout);
     },
   }}
+  style="display:block"
 >
   {#if show}
     <slot />

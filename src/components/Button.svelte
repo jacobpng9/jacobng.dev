@@ -1,4 +1,5 @@
 <script>
+export let number = 1
 </script>
 
 <div class="center" id="buttonspace">
@@ -6,7 +7,7 @@
     class="one-class"
     on:click={() => {
       window.scroll({
-        top: window.innerHeight,
+        top: window.innerHeight * number,
         behavior: "smooth",
       });
     }}

@@ -4,23 +4,24 @@ import "../styles/utils.css";
 import Bidoof from "../components/Bidoof.svelte";
 import Button from "../components/Button.svelte";
 import Art from "../components/Art.svelte";
+// import Button2 from "../components/Button.svelte";
 ---
 
 <Layout title="Jacob Ng">
   <main></main>
 </Layout>
 <div class="center" id="gradblock">
-    <div class="text-l" id=" JacobNg">
-      Jacob Ng <br /><span class="subheader">High School Senior</span>
-    </div>
-    <!--make text responsive and the image behind it will also be responsive -->
+  <div class="text-l" id=" JacobNg">
+    Jacob Ng <br /><span class="subheader">High School Senior</span>
   </div>
+  <!--make text responsive and the image behind it will also be responsive -->
 </div>
 <Button client:load />
 <div class="Main">
   <div class="aboutme">
     <Bidoof client:only />
   </div>
+  <!--<Button client:visible number ={2}/> -->
 </div>
 <div class="projects">
   <Art client:visible />
