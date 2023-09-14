@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import "../styles/utils.css";
 import Bidoof from "../components/Bidoof.svelte";
 import Button from "../components/Button.svelte";
-import Art from "../components/Art.svelte";
+import Projects from "../components/Projects.svelte";
 // import Button2 from "../components/Button.svelte";
 ---
 
@@ -18,12 +18,12 @@ import Art from "../components/Art.svelte";
 </div>
 <Button client:load />
 <div class="Main">
-  <div class="aboutme">
+  <div id="aboutme">
     <Bidoof client:only />
   </div>
   <!--<Button client:visible number ={2}/> -->
 </div>
-<div class="projects">
-  <Art client:visible />
+<div id="projects">
+  <Projects client:visible />
 </div>
 <style></style>

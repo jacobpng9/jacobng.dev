@@ -75,11 +75,17 @@ a {
   height: 85vh;
 }
 
-.main {
+#aboutme {
   padding-left: 24px;
   padding-right: 24px;
   height: 100vh;
 }
+#projects {
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 100vh;
+}
+
 #aboutsection {
   display: block;
   max-height: 700px;
