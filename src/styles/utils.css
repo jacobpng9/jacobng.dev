@@ -12,6 +12,7 @@
   --jpurple: #9773ff;
   --jlightpink: #efceff;
 }
+
 body {
   margin: 0;
 }
@@ -27,15 +28,26 @@ a {
 .background {
   background-color: var(--jbg);
 }
-
+/* text styles */
+.text-l {
+  font-size: 4rem;
+}
+.hubot {
+  font-family: "Hubot Sans", "Roboto", sans-serif;
+}
 .subheader {
   font-family: "Hubot Sans", "Roboto", sans-serif;
   font-size: 2rem;
 }
-#buttonspace {
-  height: 5vh;
+.center {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.navbar {
+/* navbar */
+#navbar {
   display: flex;
   justify-content: space-between;
   padding-top: 1.25vh;
@@ -50,21 +62,8 @@ a {
 .link {
   padding: 1.25vh;
 }
-.center {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.text-l {
-  font-size: 4rem;
-}
-.hubot {
-  font-family: "Hubot Sans", "Roboto", sans-serif;
-}
-
+/* about me part */
 #JacobNg {
   height: 90vh;
 }
@@ -141,9 +140,6 @@ a {
   max-width: auto;
   align-items: center;
 }
-.buttoncontainer {
-  height: 10vh;
-}
 
 .aboutimage {
   padding: auto;
@@ -157,4 +153,12 @@ a {
   align-items: center;
   justify-content: center;
   line-height: 1.6;
+}
+
+/* button */
+#buttonspace {
+  height: 5vh;
+}
+.buttoncontainer {
+  height: 10vh;
 }
