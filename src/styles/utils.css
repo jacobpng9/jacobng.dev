@@ -50,29 +50,29 @@ a {
 #navbar {
   display: flex;
   justify-content: space-between;
-  padding-top: 1.25vh;
-  padding-left: 1.25vh;
-  padding-right: 1.25vh;
-  padding-bottom: 1.25vh;
+  padding-top: 4vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-bottom: 4vh;
 }
 
 .head {
   font-size: 1.5rem;
 }
 .link {
-  padding: 1.25vh;
-}
-
-/* about me part */
-#JacobNg {
-  height: 90vh;
+  font-size: 1.5rem;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 
 #gradblock {
   display: flex;
   line-height: 3.5rem;
-  height: 85vh;
+  height: 78vh;
 }
+/* about me part */
+
+
 
 #aboutme {
   padding-left: 24px;
@@ -104,7 +104,7 @@ a {
   margin: 0 auto;
   gap: 5%;
   padding: 0px 20px 0px 20px;
-  min-height: 80vh;
+  height: 80vh;
 }
 #aboutsection {
   display: flex;
