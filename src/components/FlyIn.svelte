@@ -18,7 +18,7 @@
 </script>
 
 <div
-  id="aboutsection"
+  id="section"
   use:viewport={{
     onEnter() {
       show = true;

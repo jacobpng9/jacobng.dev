@@ -3,5 +3,9 @@
 </script>
 
 <FlyIn>
-  <div class="card"></div>
+  <div class="card" id="cardContainer">
+      <div class="card" id="project1">
+
+      </div>
+  </div>
 </FlyIn>

@@ -68,11 +68,9 @@ a {
 #gradblock {
   display: flex;
   line-height: 3.5rem;
-  height: 78vh;
+  height: 70vh;
 }
 /* about me part */
-
-
 
 #aboutme {
   padding-left: 24px;
@@ -85,13 +83,13 @@ a {
   height: 100vh;
 }
 
-#aboutsection {
+#section {
   display: block;
   max-height: 700px;
   max-width: 900px;
   margin: 0 auto;
-  padding: 0px 20px 0px 20px;
-  height: 100vh;
+  padding: 0px 2.45vw 0px 2.45vw;
+  height: 40vh;
 }
 #aboutcards {
   display: flex;
@@ -103,21 +101,8 @@ a {
   text-align: left;
   margin: 0 auto;
   gap: 5%;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 2.45vw 0px 2.45vw;
   height: 80vh;
-}
-#aboutsection {
-  display: flex;
-  max-height: 700px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 900px;
-  text-align: left;
-  margin: 0 auto;
-  gap: 5%;
-  padding: 0px 20px 0px 20px;
-  min-height: 80vh;
 }
 @media screen and (max-width: 768px) {
   #aboutcards {
@@ -162,4 +147,11 @@ a {
 .buttoncontainer {
   height: 10vh;
 }
-/* card */
+
+/* cards */
+#cardContainer {
+  height: 80vh;
+}
+#aboutsection {
+  height:100vh;
+}

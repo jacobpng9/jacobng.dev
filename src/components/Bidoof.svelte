@@ -5,8 +5,8 @@
   import FlyIn from "./FlyIn.svelte";
   import Button from "./Button.svelte";
 </script>
-
 <FlyIn>
+  <div id="aboutsection"> 
   <div id="aboutcards">
     <div class="blurbcontainer">
       <section
@@ -32,5 +32,6 @@
   </div>
   <div class="buttoncontainer" in:fly={{ easing: quintOut, duration: 1000, delay: 400 }}>
     <Button number={2}/>
+  </div>
   </div>
 </FlyIn>
