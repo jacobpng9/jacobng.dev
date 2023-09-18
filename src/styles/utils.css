@@ -68,7 +68,7 @@ a {
 #gradblock {
   display: flex;
   line-height: 3.5rem;
-  height: 78wvh;
+  height: 78vh;
 }
 /* about me part */
 
@@ -162,3 +162,4 @@ a {
 .buttoncontainer {
   height: 10vh;
 }
+/* card */
