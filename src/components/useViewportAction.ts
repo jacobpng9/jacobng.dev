@@ -1,33 +1,33 @@
-let intersectionObserver: IntersectionObserver;
-
-function ensureIntersectionObserver({
-  onEnter,
-  onExit,
-}: {
-  onEnter: () => void;
-  onExit: () => void;
-}) {
-  if (intersectionObserver) return;
-
-  intersectionObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      entry.isIntersecting ? onEnter() : onExit();
-    });
-  });
-}
-
 export default function viewport(
   element: Element,
-  monkeys: { onEnter: () => void; onExit: () => void }
+  { onEnter, onExit }: { onEnter: () => void; onExit: () => void }
 ) {
-  ensureIntersectionObserver(monkeys);
+  console.log("rerunning");
+  const obs = new IntersectionObserver(
+    (entries) => {
+      console.log("observer", entries.length);
+      entries.forEach((entry) => {
+        entry.isIntersecting
+          ? onEnter()
+          : (() => {
+              console.log("exit");
+              onExit();
+            })();
+      });
+    },
+    {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1,
+    }
+  );
 
-  intersectionObserver.observe(element);
+  obs.observe(element);
 
   return {
     destroy() {
-      intersectionObserver.unobserve(element);
+      obs.unobserve(element);
+      obs.disconnect();
     },
-	
   };
 }

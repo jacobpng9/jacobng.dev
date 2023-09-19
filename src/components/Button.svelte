@@ -1,10 +1,11 @@
 <script>
-export let number = 1
+  export let number = 1;
+  export let className = "";
 </script>
 
-<div class="center" id="buttonspace">
+<div class="center">
   <button
-    class="one-class"
+    class="one-class margin {className}"
     on:click={() => {
       window.scroll({
         top: window.innerHeight * number,

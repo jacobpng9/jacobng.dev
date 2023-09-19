@@ -49,26 +49,36 @@ a {
 /* navbar */
 #navbar {
   display: flex;
+  position: absolute;
   justify-content: space-between;
-  padding-top: 4vh;
-  padding-left: 4vh;
-  padding-right: 4vh;
-  padding-bottom: 4vh;
+  width: 100%; 
 }
-
+#leftnav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top:4vh;
+  padding-left: 4vh;
+}
+#rightnav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top:4vh;
+  padding-right: 4vh;
+}
 .head {
   font-size: 1.5rem;
-}
-.link {
-  font-size: 1.5rem;
-  padding-left: 2vh;
   padding-right: 2vh;
+  padding-left:2vh;
 }
 
 #gradblock {
   display: flex;
   line-height: 3.5rem;
-  height: 70vh;
+  height: 100vh;
 }
 /* about me part */
 
@@ -89,7 +99,7 @@ a {
   max-width: 900px;
   margin: 0 auto;
   padding: 0px 2.45vw 0px 2.45vw;
-  height: 40vh;
+  height: 100vh;
 }
 #aboutcards {
   display: flex;
@@ -102,7 +112,7 @@ a {
   margin: 0 auto;
   gap: 5%;
   padding: 0px 2.45vw 0px 2.45vw;
-  height: 80vh;
+  height: 100vh;
 }
 @media screen and (max-width: 768px) {
   #aboutcards {
@@ -111,6 +121,9 @@ a {
   }
   .blurbcontainer {
     margin-bottom: auto;
+  }
+  .mobile {
+    display:none;
   }
 }
 
@@ -144,14 +157,18 @@ a {
 #buttonspace {
   height: 5vh;
 }
-.buttoncontainer {
+/* .buttoncontainer {
   height: 10vh;
-}
+} */
 
 /* cards */
 #cardContainer {
   height: 80vh;
 }
 #aboutsection {
-  height:100vh;
+  height: 100vh;
+}
+
+.margin {
+  margin-top: -30vh;
 }

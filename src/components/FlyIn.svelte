@@ -14,7 +14,6 @@
     );
   });
   let show = false;
-  let timeout: number;
 </script>
 
 <div
@@ -22,16 +21,8 @@
   use:viewport={{
     onEnter() {
       show = true;
-
-      if (mobile) {
-        timeout = setTimeout(() => {
-          window.scrollBy(0, 600);
-        }, 400);
-      }
     },
     onExit() {
-      show = false;
-      clearTimeout(timeout);
     },
   }}
   style="display:block"
