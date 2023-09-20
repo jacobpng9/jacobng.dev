@@ -87,11 +87,7 @@ a {
   padding-right: 24px;
   height: 100vh;
 }
-#projects {
-  padding-left: 24px;
-  padding-right: 24px;
-  height: 100vh;
-}
+
 
 #section {
   display: block;
@@ -171,4 +167,11 @@ a {
 
 .margin {
   margin-top: -30vh;
+}
+
+/* projects */
+#projects {
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 100vh;
 }
