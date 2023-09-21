@@ -5,7 +5,7 @@
   import FlyIn from "./FlyIn.svelte";
   import Button from "./Button.svelte";
 </script>
-
+<div class="centerSpace">
 <FlyIn>
   <div id="aboutsection">
     <div
@@ -25,7 +25,7 @@
         </section>
       </div>
       <div class="imagecontainer">
-        <img src={bidoof} alt="" class="aboutimage" />
+        <img src={bidoof} alt="" id="aboutimage" />
       </div>
     </div>
   </div>
@@ -33,3 +33,4 @@
       <Button number={2} className={"margin"} />
     </div>
 </FlyIn>
+</div>
