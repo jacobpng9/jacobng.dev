@@ -14,17 +14,16 @@
         <div class="imagecontaine">
           <img src={Jacob} alt="haii^_^" class="card_img">
         </div>
-          <br />Lorem ipsum dolor sit amet,
+          <br />Lorem ipsum dolor sit amet,asdasdadasdasdadasdas
         </div>
       </div>
       <div class="card">
         <div class="card_content">
-          <span class=" text-l hubot" style="color: var(--jpurple)">Ben</span>
-          <br />Hello! My name is Jacob Ng, a current high school junior at
-          Brophy College Preparatory. I have been learning all sorts of
-          languages like Java, Python, HTML, CSS, and Javascript since Freshman
-          year. <br /><br />I love music, video games, and fashion. Enjoy the
-          website and my portfolios!<br /> hi
+          <div class="imagecontaine">
+          <img src={Jacob} alt="haii^_^" class="card_img">
+        </div>
+          <span class="text-m hubot" style="color: var(--jpurple)">Personal Website</span>
+        Personal website to show off portfolios and projects. 
         </div>
       </div>
       <div class="card">
