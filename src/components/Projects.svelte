@@ -3,7 +3,7 @@
   import { quintOut } from "svelte/easing";
   import FlyIn from "./FlyIn.svelte";
   import Button from "./Button.svelte";
-  import Jacob from "../images/Jacob1.jpg";
+  import Jacob from "../images/jacob1.jpg";
 </script>
 
 <FlyIn>
