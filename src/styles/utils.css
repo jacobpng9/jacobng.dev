@@ -176,6 +176,11 @@ a {
   height: 100vh;
   align-items: start;
 }
+@media screen and (min-width: 0em) {
+  #button {
+  visibility: hidden;
+  }
+}
 @media screen and (min-width: 30em){ 
 .grid-container {
     display:grid;
@@ -184,7 +189,7 @@ a {
 }
 #button {
   visibility: hidden;
-}
+  }
 }
 @media screen and (min-width: 48em) {
   .grid-container {
