@@ -3,25 +3,26 @@
   import { quintOut } from "svelte/easing";
   import FlyIn from "./FlyIn.svelte";
   import Button from "./Button.svelte";
+  import Screen1 from "../images/screen1.jpg";
   import Jacob from "../images/jacob1.jpg";
 </script>
 
 <FlyIn>
   <div id="projects">
+    <div id="title"><div class="hubot text-l center">Projects</div></div>
     <div class="grid-container">
       <div class="card">
         <div class="card_content">
         <div class="imagecontaine">
-          <img src={Jacob} alt="haii^_^" class="card_img">
+          <img src={Screen1} alt="haii^_^" class="card_img">
         </div>
           <br />Lorem ipsum dolor sit amet,asdasdadasdasdadasdas
         </div>
       </div>
       <div class="card">
         <div class="card_content">
-          <div class="imagecontaine">
           <img src={Jacob} alt="haii^_^" class="card_img">
-        </div>
+
           <span class="text-m hubot" style="color: var(--jpurple)">Personal Website</span>
         Personal website to show off portfolios and projects. 
         </div>
