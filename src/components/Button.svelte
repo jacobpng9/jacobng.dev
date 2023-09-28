@@ -3,7 +3,7 @@
   export let className = "";
 </script>
 
-<div class="center">
+<div class="center" id="button">
   <button
     class="one-class margin {className}"
     on:click={() => {

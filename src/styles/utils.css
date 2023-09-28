@@ -157,6 +157,9 @@ a {
 /* .buttoncontainer {
   height: 10vh;
 } */
+#button {
+  /* display: none; when mobile */
+}
 
 /* cards */
 #aboutsection {
@@ -179,6 +182,9 @@ a {
     grid-template-columns: repeat(1, minmax(200px, 1fr));
     grid-gap: 10px;
 }
+#button {
+  visibility: hidden;
+}
 }
 @media screen and (min-width: 48em) {
   .grid-container {
@@ -186,6 +192,9 @@ a {
     grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-gap: 10px;
   }
+#button {
+  visibility: hidden;
+}
 }
 @media screen and (min-width: 60em){
   .grid-container {
@@ -196,6 +205,9 @@ a {
   .card_content {
     font-size: 16px;
   }
+  #button {
+  visibility: visible;
+}
 }
 .grid-container {
   padding: auto;
@@ -229,4 +241,9 @@ a {
 }
 .text-m {
   font-size: 1.5rem;
+}
+
+#projectsTitle {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }

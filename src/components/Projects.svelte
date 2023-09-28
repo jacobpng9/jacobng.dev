@@ -9,7 +9,7 @@
 
 <FlyIn>
   <div id="projects">
-    <div id="title"><div class="hubot text-l center">Projects</div></div>
+    <div id="title"><div id="projectsTitle" class="hubot text-l center">Projects</div></div>
     <div class="grid-container">
       <div class="card">
         <div class="card_content">
