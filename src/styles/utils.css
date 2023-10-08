@@ -215,20 +215,22 @@ a {
 }
 }
 .grid-container {
-  padding: auto;
-  grid-auto-cards: 2fr;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .card {
   border-radius:25px;
+  height: auto;
   background-color: blue;
   display:flex;
-  align-items:start;
-  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
 }
 .card_content{
   display: flex;
   flex-direction: column;
-  align-items: start;
+  justify-content:start;
   padding: 15px;
 }
 .card_img {
@@ -237,6 +239,13 @@ a {
   height: auto;
   object-fit: cover;
   border-radius:25px;
+}
+.footer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  padding: 15px;
 }
 .imagecontaine {
   display:flex;
