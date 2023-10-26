@@ -5,6 +5,7 @@
   import Button from "./Button.svelte";
   import Screen1 from "../images/screen1.jpg";
   import Jacob from "../images/jacob1.jpg";
+  import CalcImage from "../images/calculator.jpg";
 </script>
 
 <FlyIn>
@@ -16,9 +17,10 @@
       <div class="card">
         <div class="card_content">
           <div class="imagecontaine">
-            <img src={Screen1} alt="haii^_^" class="card_img" />
+            <img src={CalcImage} alt="haii^_^" class="card_img" />
           </div>
-          <br />Lorem ipsum dolor sit amet,asdasdadasdasdadasdas
+          <span class="text-m hubot projectText" style="color: var(--jpurple)"
+            >Calculator</span>A simple calculator made with HTML, CSS, and Javascript. It was implemented with Svelte and Astro and deployed with Vercel.
         </div>
         <div class="footer">
           <div class="hubot text-m" style="color: var(--jpurple)">Github</div>
@@ -26,9 +28,10 @@
       </div>
       <div class="card">
         <div class="card_content">
-          <img src={Jacob} alt="haii^_^" class="card_img" />
-
-          <span class="text-m hubot" style="color: var(--jpurple)"
+          <div class="imagecontaine">
+          <img src={Screen1} alt="haii^_^" class="card_img" />
+          </div>
+          <span class="text-m hubot projectText" style="color: var(--jpurple)"
             >Personal Website</span
           >
           Personal website to show off portfolios and projects.

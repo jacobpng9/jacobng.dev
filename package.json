@@ -10,10 +10,10 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/svelte": "^2.1.0",
-		"astro": "^2.1.9",
+		"@astrojs/svelte": "^2.2.0",
+		"astro": "^2.10.15",
 		"normalize.css": "^8.0.1",
-		"prettier": "^2.8.7",
-		"svelte": "^3.58.0"
+		"prettier": "^2.8.8",
+		"svelte": "^3.59.2"
 	}
 }

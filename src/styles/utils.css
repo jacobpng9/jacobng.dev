@@ -204,7 +204,7 @@ a {
 @media screen and (min-width: 60em){
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 10px;
   }
   .card_content {
@@ -215,8 +215,7 @@ a {
 }
 }
 .grid-container {
-  padding-left: 100px;
-  padding-right: 100px;
+
 }
 .card {
   border-radius:25px;
@@ -249,7 +248,7 @@ a {
 }
 .imagecontaine {
   display:flex;
-  height: 170px;
+  max-height: 250px;
   background-color: red;
   border-radius:25px;
 }
@@ -260,4 +259,8 @@ a {
 #projectsTitle {
   padding-top: 4vh;
   padding-bottom: 4vh;
+}
+
+.projectText {
+  text-align: center;
 }
