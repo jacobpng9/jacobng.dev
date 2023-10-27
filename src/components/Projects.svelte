@@ -6,6 +6,7 @@
   import Screen1 from "../images/screen1.jpg";
   import Jacob from "../images/jacob1.jpg";
   import CalcImage from "../images/calculator.jpg";
+  import Filler from "../images/filler.jpg";
 </script>
 
 <FlyIn>
@@ -29,9 +30,7 @@
           </div>
         </div>
         <div class="footer">
-          <div class="hubot text-m" style="color: var(--jpurple)">
-            Github 
-          </div>
+          <div class="hubot text-m" style="color: var(--jpurple)">Github</div>
         </div>
       </div>
       <div class="card">
@@ -54,7 +53,7 @@
       <div class="card">
         <div class="card_content">
           <div class="imagecontaine">
-            <img src={Jacob} alt="haii^_^" class="card_img" />
+            <img src={Filler} alt="haii^_^" class="card_img" />
           </div>
           <span
             class="text-m hubot projectNameText"
@@ -63,9 +62,7 @@
           <div class="projectText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             maximus sem magna, vitae bibendum lectus eleifend vel. Sed sit amet
-            massa tincidunt enim dapibus mattis eu ac risus. Donec sed nunc
-            nulla. Aenean mollis posuere libero, quis pulvinar tellus maximus
-            id. Donec rhoncus mi ac dolor pulvinar
+            massa tincidunt enim dapibus mattis
           </div>
         </div>
         <div class="footer">
