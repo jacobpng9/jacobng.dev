@@ -215,7 +215,8 @@ a {
 }
 }
 .grid-container {
-
+  margin:auto;
+  max-width: 80rem;
 }
 .card {
   border-radius:25px;
@@ -234,7 +235,8 @@ a {
 }
 .card_img {
   padding: auto;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
   border-radius:25px;
@@ -261,6 +263,14 @@ a {
   padding-bottom: 4vh;
 }
 
+.projectNameText {
+text-align: center;
+}
 .projectText {
-  text-align: center;
+  
+  line-height: 1.4rem;
+}
+
+.card {
+  height: 32rem
 }

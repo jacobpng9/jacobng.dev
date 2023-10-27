@@ -19,22 +19,33 @@
           <div class="imagecontaine">
             <img src={CalcImage} alt="haii^_^" class="card_img" />
           </div>
-          <span class="text-m hubot projectText" style="color: var(--jpurple)"
-            >Calculator</span>A simple calculator made with HTML, CSS, and Javascript. It was implemented with Svelte and Astro and deployed with Vercel.
+          <span
+            class="text-m hubot projectNameText"
+            style="color: var(--jpurple)">Calculator</span
+          >
+          <div class="projectText">
+            A simple calculator made with HTML, CSS, and Javascript. It was
+            implemented with Svelte and Astro and deployed with Vercel.
+          </div>
         </div>
         <div class="footer">
-          <div class="hubot text-m" style="color: var(--jpurple)">Github</div>
+          <div class="hubot text-m" style="color: var(--jpurple)">
+            Github 
+          </div>
         </div>
       </div>
       <div class="card">
         <div class="card_content">
           <div class="imagecontaine">
-          <img src={Screen1} alt="haii^_^" class="card_img" />
+            <img src={Screen1} alt="haii^_^" class="card_img" />
           </div>
-          <span class="text-m hubot projectText" style="color: var(--jpurple)"
-            >Personal Website</span
+          <span
+            class="text-m hubot projectNameText"
+            style="color: var(--jpurple)">Personal Website</span
           >
-          Personal website to show off portfolios and projects.
+          <div class="projectText">
+            Personal website to show off portfolios and projects.
+          </div>
         </div>
         <div class="footer">
           <div class="hubot text-m" style="color: var(--jpurple)">Github</div>
@@ -45,11 +56,17 @@
           <div class="imagecontaine">
             <img src={Jacob} alt="haii^_^" class="card_img" />
           </div>
-          <br />Hello! My name is Jacob Ng, a current high school junior at
-          Brophy College Preparatory. I have been learning all sorts of
-          languages like Java, Python, HTML, CSS, and Javascript since Freshman
-          year. <br /><br />I love music, video games, and fashion. Enjoy the
-          website and my portfolios!
+          <span
+            class="text-m hubot projectNameText"
+            style="color: var(--jpurple)">Under Construction</span
+          >
+          <div class="projectText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            maximus sem magna, vitae bibendum lectus eleifend vel. Sed sit amet
+            massa tincidunt enim dapibus mattis eu ac risus. Donec sed nunc
+            nulla. Aenean mollis posuere libero, quis pulvinar tellus maximus
+            id. Donec rhoncus mi ac dolor pulvinar
+          </div>
         </div>
         <div class="footer">
           <div class="hubot text-m" style="color: var(--jpurple)">Github</div>
