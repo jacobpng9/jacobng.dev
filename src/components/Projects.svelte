@@ -3,10 +3,9 @@
   import { quintOut } from "svelte/easing";
   import FlyIn from "./FlyIn.svelte";
   import Button from "./Button.svelte";
-  import Screen1 from "../images/screen1.jpg";
-  import Jacob from "../images/jacob1.jpg";
-  import CalcImage from "../images/calculator.jpg";
-  import Filler from "../images/filler.jpg";
+  import Screen1 from "../images/screen1.webp";
+  import CalcImage from "../images/calculator.webp";
+  import Filler from "../images/filler.webp";
 </script>
 
 <FlyIn>
