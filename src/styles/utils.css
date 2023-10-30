@@ -86,7 +86,7 @@ a {
   padding-left: 24px;
   padding-right: 24px;
   height: 100vh;
-  display:flex; 
+  display: flex;
   justify-content: center;
 }
 .centerSpace {
@@ -164,7 +164,6 @@ a {
 /* cards */
 #aboutsection {
   height: 100vh;
-  
 }
 
 .margin {
@@ -173,23 +172,22 @@ a {
 
 /* projects */
 #projects {
-  height: 100vh;
   align-items: start;
 }
 .grid-container {
-  margin:auto;
+  margin: auto;
   max-width: 80rem;
   padding-left: 16px;
   padding-right: 16px;
 }
 .card {
-  border-radius:25px;
+  border-radius: 25px;
   background-color: blue;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:space-between;
-  max-width:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: auto;
 }
 @media screen and (max-width: 48em) {
   .card {
@@ -199,22 +197,25 @@ a {
 }
 @media screen and (min-width: 0em) {
   #button {
-  visibility: hidden;
+    visibility: hidden;
   }
   .grid-container {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(1, minmax(200px, 1fr));
     grid-gap: 10px;
   }
 }
-@media screen and (min-width: 30em){ 
-.grid-container {
-    display:grid;
+@media screen and (min-width: 30em) {
+  .grid-container {
+    display: grid;
     grid-template-columns: repeat(1, minmax(200px, 1fr));
     grid-gap: 10px;
-}
-#button {
-  visibility: hidden;
+  }
+  #button {
+    visibility: hidden;
+  }
+  #projects {
+    height: max-content;
   }
 }
 @media screen and (min-width: 48em) {
@@ -226,11 +227,14 @@ a {
   .card {
     height: auto;
   }
-#button {
-  visibility: hidden;
+  #projects {
+    height: max-content;
+  }
+  #button {
+    visibility: hidden;
+  }
 }
-}
-@media screen and (min-width: 60em){
+@media screen and (min-width: 60em) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -240,16 +244,19 @@ a {
     font-size: 16px;
   }
   #button {
-  visibility: visible;
-}
+    visibility: visible;
+  }
   .card {
     height: 32rem;
   }
+  #projects {
+    height: 100vh;
+  }
 }
-.card_content{
+.card_content {
   display: flex;
   flex-direction: column;
-  justify-content:start;
+  justify-content: start;
   padding: 15px;
 }
 .card_img {
@@ -258,20 +265,20 @@ a {
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius:25px;
+  border-radius: 25px;
 }
 .footer {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
-  align-items:center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 15px;
 }
 .imagecontaine {
-  display:flex;
+  display: flex;
   max-height: 15rem;
   background-color: red;
-  border-radius:25px;
+  border-radius: 25px;
 }
 .text-m {
   font-size: 1.5rem;
@@ -283,9 +290,20 @@ a {
 }
 
 .projectNameText {
-text-align: center;
+  text-align: center;
 }
 .projectText {
   line-height: 1.4rem;
 }
-
+/* art */
+#art {
+  height: 100vh;
+  align-items: start;
+}
+.artimage {
+  max-width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+/* contact */

@@ -3,8 +3,8 @@
   import { quintOut } from "svelte/easing";
   import FlyIn from "./FlyIn.svelte";
   import Button from "./Button.svelte";
-  import Screen1 from "../images/screen1.webp";
   import CalcImage from "../images/calculator.webp";
+  import Screen1 from "../images/screen1.webp";
   import Filler from "../images/filler.webp";
 </script>
 
