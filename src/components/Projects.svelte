@@ -71,6 +71,6 @@
     </div>
   </div>
   <div in:fly={{ easing: quintOut, duration: 1000, delay: 200 }}>
-    <Button number={2} className={"margin"} />
+    <Button number={3} className={"margin"} />
   </div>
 </FlyIn>
