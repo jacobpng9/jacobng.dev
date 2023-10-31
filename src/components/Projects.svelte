@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="footer">
-          <div class="hubot text-m" style="color: var(--jpurple)"><a href="https://github.com/jacobng24/jacobng.dev">Github</a>Github</div>
+          <div class="hubot text-m" style="color: var(--jpurple)"><a href="https://github.com/jacobng24/jacobng.dev">Github</a></div>
         </div>
       </div>
       <div class="card">
