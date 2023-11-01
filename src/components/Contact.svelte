@@ -13,13 +13,13 @@
         <div class="contactMeLink">
           <a target="_blank" rel="noopener" href="https://github.com/jacobng24" style="fill:red;"
             ><img
-              src="public/github.svg"
+              src="src/icons/github.svg"
               alt="GitHub"
               style="width: 42px; height: 42px; fill: #ff0000; padding: 5px;"
             /></a>
-            <a target="_blank" rel="noopener" href="https://github.com/jacobng24" style="fill:red;"
+            <a target="_blank" rel="noopener"href="https://github.com/jacobng24" style="fill:red;"
             ><img
-              src="public/linkedin.svg"
+              src="src/icons/linkedin.svg"
               alt="GitHub"
               style="width: 42px; height: 42px; fill: #ff0000; padding: 5px;"
             /></a
