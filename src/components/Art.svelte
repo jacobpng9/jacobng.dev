@@ -29,7 +29,7 @@
             /><br /> P.S. there is also a Google Drive link if you want to see more!
           </section>
         </div>
-        <a href="https://drive.google.com">
+        <a href="https://drive.google.com/drive/folders/1UBavS5fYbSiJJTOMsAZxW_llEihR1c6T?usp=drive_link">
           <button id="seeMoreButton"> See More</button>
         </a>
       </div>

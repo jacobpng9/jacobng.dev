@@ -394,8 +394,16 @@ background: linear-gradient(150deg, var(--jbg) 0%, var(--jbg) 65%, var(--jpurple
   padding: 0px 2.45vw 0px 2.45vw;
   height: 80vh;
 }
-
+#contactMeLinks {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
 /* miscelanneous (/404) */
 .svgCSS {
   fill: red;
+}
+
+.links {
+  display: flex;
 }

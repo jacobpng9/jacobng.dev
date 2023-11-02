@@ -1,5 +1,7 @@
 <script lang="ts">
   import FlyIn from "./FlyIn.svelte";
+  import Github from "../icons/Github.svelte";
+  import Linkedin from "../icons/Linkedin.svelte";
 </script>
 
 <FlyIn>
@@ -10,22 +12,28 @@
         Feel free to contact me through any of the following platforms!
       </div>
       <div id="contactMeLinks">
-        <div class="contactMeLink">
-          <a target="_blank" rel="noopener" href="https://github.com/jacobng24" style="fill:red;"
-            ><img
-              src="src/icons/github.svg"
-              alt="GitHub"
-              style="width: 42px; height: 42px; fill: #ff0000; padding: 5px;"
-            /></a>
-            <a target="_blank" rel="noopener"href="https://github.com/jacobng24" style="fill:red;"
-            ><img
-              src="src/icons/linkedin.svg"
-              alt="GitHub"
-              style="width: 42px; height: 42px; fill: #ff0000; padding: 5px;"
-            /></a
-          >
-        </div>
+        <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/jacobng24"
+          title="GitHub"><Github /></a
+        >
+        <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://www.linkedin.com/in/jacob-ng-301743296/"
+          title="LinkedIn"><Linkedin /></a
+        >
       </div>
     </div>
   </div></FlyIn
 >
+
+<style>
+  :global(svg) {
+    max-width: 50px;
+    display: block;
+  }
+</style>
