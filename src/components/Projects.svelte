@@ -6,6 +6,8 @@
   import CalcImage from "../images/calculator.webp";
   import Screen1 from "../images/screen1.webp";
   import Filler from "../images/filler.webp";
+  import Github from "../icons/Github.svelte";
+  import Link from "../icons/Link.svelte";
 </script>
 
 <FlyIn>
@@ -29,7 +31,20 @@
           </div>
         </div>
         <div class="footer">
-          <div class="hubot text-m" style="color: var(--jpurple)"><a href="https://github.com/jacobng24/calculator">Github</a></div>
+        <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/jacobng24/calculator"
+          title="GitHub"><Github /></a
+        >
+        <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://calculator-jacobng.vercel.app/"
+          title="To the calculator!"><Link /></a
+        >
         </div>
       </div>
       <div class="card">
@@ -46,7 +61,20 @@
           </div>
         </div>
         <div class="footer">
-          <div class="hubot text-m" style="color: var(--jpurple)"><a href="https://github.com/jacobng24/jacobng.dev">Github</a></div>
+          <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/jacobng24/jacobng.dev"
+          title="GitHub"><Github /></a
+        >
+        <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://jacobng.dev"
+          title="To the website!"><Link /></a
+        >
         </div>
       </div>
       <div class="card">
@@ -65,7 +93,20 @@
           </div>
         </div>
         <div class="footer">
-          <div class="hubot text-m" style="color: var(--jpurple)">Github</div>
+          <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://github.com/jacobng24"
+          title="GitHub"><Github /></a
+        >
+        <a
+          class="links"
+          target="_blank"
+          rel="noopener"
+          href="https://jacobng.dev"
+          title="To the !"><Link /></a
+        >
         </div>
       </div>
     </div>
