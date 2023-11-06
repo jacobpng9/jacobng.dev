@@ -372,6 +372,30 @@ a {
   display:block;
   width: 100%;
 }
+
+.seeMoreButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  border-radius: 0px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #333333;
+  transition: 0.3s;
+  box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
+  background-color: #9773ff;
+  margin-top: 10px;
+}
+
+.seeMoreButton:hover {
+  box-shadow: 0 0 #333;
+  color: #fff;
+  background-color: #333;
+}
 /* contact */
 #contactMePage {
   height: 100vh;

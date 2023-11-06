@@ -30,7 +30,7 @@
           </section>
         </div>
         <a href="https://drive.google.com/drive/folders/1UBavS5fYbSiJJTOMsAZxW_llEihR1c6T?usp=drive_link">
-          <button id="seeMoreButton"> See More</button>
+          <button id="seeMoreButton" class="seeMoreButton"> See More</button>
         </a>
       </div>
       <div class="artContainer">
