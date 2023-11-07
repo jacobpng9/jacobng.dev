@@ -7,6 +7,7 @@
   import Photo1 from "../images/Photo1.webp";
   import Photo2 from "../images/Photo2.webp";
   import Photo3 from "../images/Photo3.webp";
+  import { galleryOpen } from "./gallery";
 
   let selectedIndex = 0;
 </script>
@@ -29,7 +30,9 @@
             /><br /> P.S. there is also a Google Drive link if you want to see more!
           </section>
         </div>
-        <a href="https://drive.google.com/drive/folders/1UBavS5fYbSiJJTOMsAZxW_llEihR1c6T?usp=drive_link">
+        <a
+          href="https://drive.google.com/drive/folders/1UBavS5fYbSiJJTOMsAZxW_llEihR1c6T?usp=drive_link"
+        >
           <button id="seeMoreButton" class="seeMoreButton"> See More</button>
         </a>
       </div>
@@ -48,9 +51,11 @@
       </div>
     </div>
   </div>
-  <div id="imageGallery">
+  <div id="imageGallery" class:none={!$galleryOpen}>
     <div class="popup">
-      <button id="closeButton"> Close</button>
+      <button id="closeButton" on:click={() => ($galleryOpen = false)}>
+        Close
+      </button>
       <ul>
         {#each images as image, i}
           <!-- Add more images as needed -->
@@ -73,7 +78,6 @@
 
   <div in:fly={{ easing: quintOut, duration: 1000, delay: 200 }}>
     <Button number={4} className={"margin"} />
-    <script src="src/js/gallery.js"></script>
   </div>
 </FlyIn>
 
