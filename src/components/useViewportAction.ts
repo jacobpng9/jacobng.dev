@@ -1,6 +1,6 @@
 export default function viewport(
   element: Element,
-  { onEnter, onExit }: { onEnter: () => void; onExit: () => void }
+  { onEnter, onExit }: { onEnter: () => void; onExit: () => void },
 ) {
   console.log("rerunning");
   const obs = new IntersectionObserver(
@@ -19,7 +19,7 @@ export default function viewport(
       root: null,
       rootMargin: "0px",
       threshold: 0.1,
-    }
+    },
   );
 
   obs.observe(element);

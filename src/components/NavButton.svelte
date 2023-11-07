@@ -3,7 +3,8 @@
 </script>
 
 {#each buttons as b, number}
-  <button class="head resetButton"
+  <button
+    class="head resetButton"
     on:click={() =>
       window.scroll({
         top: window.innerHeight * number,

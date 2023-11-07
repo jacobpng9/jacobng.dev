@@ -7,13 +7,16 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write --plugin prettier-plugin-svelte --plugin prettier-plugin-astro ."
   },
   "devDependencies": {
     "@astrojs/svelte": "^4.0.3",
     "astro": "^3.4.3",
     "normalize.css": "^8.0.1",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.1",
+    "prettier-plugin-svelte": "^3.0.3",
     "svelte": "^4.2.2"
   }
 }

@@ -18,15 +18,15 @@ import Contact from "../components/Contact.svelte";
   </div>
   <!--make text responsive and the image behind it will also be responsive -->
 </div>
-  <Button client:load number={1} class={"margin"}/>
+<Button client:load number={1} class={"margin"} />
 
 <div class="Main">
   <div id="aboutme">
     <Bidoof client:only />
   </div>
-    <Projects client:visible />
-    <Art client:visible />
+  <Projects client:visible />
+  <Art client:visible />
 </div>
-    <Contact client:visible />
+<Contact client:visible />
 
 <style></style>

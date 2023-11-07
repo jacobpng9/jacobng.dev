@@ -22,8 +22,7 @@
     onEnter() {
       show = true;
     },
-    onExit() {
-    },
+    onExit() {},
   }}
   style="display:block"
 >
