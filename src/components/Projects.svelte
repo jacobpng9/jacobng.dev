@@ -19,7 +19,7 @@
       <div class="card">
         <div class="card_content">
           <div class="imagecontaine">
-            <img src={CalcImage} alt="haii^_^" class="card_img" />
+            <img src={CalcImage.src} alt="haii^_^" class="card_img" />
           </div>
           <span
             class="text-m hubot projectNameText"
@@ -50,7 +50,7 @@
       <div class="card">
         <div class="card_content">
           <div class="imagecontaine">
-            <img src={Screen1} alt="haii^_^" class="card_img" />
+            <img src={Screen1.src} alt="haii^_^" class="card_img" />
           </div>
           <span
             class="text-m hubot projectNameText"
@@ -80,7 +80,7 @@
       <div class="card">
         <div class="card_content">
           <div class="imagecontaine">
-            <img src={Filler} alt="haii^_^" class="card_img" />
+            <img src={Filler.src} alt="haii^_^" class="card_img" />
           </div>
           <span
             class="text-m hubot projectNameText"

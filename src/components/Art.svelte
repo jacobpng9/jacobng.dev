@@ -36,13 +36,13 @@
       <div class="artContainer">
         <div class="image-stack">
           <div class="image-stack__item artImage-top">
-            <img src={Photo2} alt="sad" class="artImage" />
+            <img src={Photo2.src} alt="sad" class="artImage" />
           </div>
           <div class="image-stack__item artImage-bottom">
-            <img src={Photo1} alt="happy" class="artImage" />
+            <img src={Photo1.src} alt="happy" class="artImage" />
           </div>
           <div class="image-stack__item artImage-side">
-            <img src={Photo3} alt="hi" class="artImage" />
+            <img src={Photo3.src} alt="hi" class="artImage" />
           </div>
         </div>
       </div>

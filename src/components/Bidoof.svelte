@@ -25,7 +25,7 @@
         </section>
       </div>
       <div class="imagecontainer">
-        <img src={bidoof} alt="" id="aboutimage" />
+        <img src={bidoof.src} alt="" id="aboutimage" />
       </div>
     </div>
   </div>
