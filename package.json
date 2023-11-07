@@ -18,5 +18,9 @@
     "prettier-plugin-astro": "^0.12.1",
     "prettier-plugin-svelte": "^3.0.3",
     "svelte": "^4.2.2"
+  },
+  "dependencies": {
+    "@astrojs/solid-js": "^3.0.2",
+    "solid-js": "^1.4.3"
   }
 }
