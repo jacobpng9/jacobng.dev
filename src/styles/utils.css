@@ -53,6 +53,7 @@ a {
   position: absolute;
   justify-content: space-between;
   width: 100%;
+  font-size: 1.5rem;
 }
 #leftnav {
   display: flex;
@@ -403,7 +404,7 @@ a {
   align-items: center;
   justify-content: center;
   background: rgb(13,17,23);
-background: linear-gradient(150deg, var(--jbg) 0%, var(--jbg) 65%, var(--jpurple) 100%);
+  background: linear-gradient(150deg, var(--jbg) 0%, var(--jbg) 65%, var(--jpurple) 100%);
 }
 
 #contactMeContainer {
@@ -430,4 +431,29 @@ background: linear-gradient(150deg, var(--jbg) 0%, var(--jbg) 65%, var(--jpurple
 
 .links {
   display: flex;
+}
+
+.resetButton {
+  border: none;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+}
+
+button {
+  cursor:pointer;
 }

@@ -1,5 +1,6 @@
 ---
-import '../styles/utils.css'
+import "../styles/utils.css";
+import NavButton from "../components/NavButton.svelte";
 export interface Props {
   title: string;
 }
@@ -18,16 +19,15 @@ const { title } = Astro.props;
   </head>
 
   <body>
-	<nav id="navbar">
+    <nav id="navbar">
       <div id="leftnav">
-        <div class="head">Jacob Ng </div>
+        <div class="head">Jacob Ng</div>
       </div>
-		<div id= "rightnav">
-			<a class="head mobile" href="../">Home</a>
-			<a class="head mobile" href="about">About</a>
-		</div>
-	</nav>
-	
+      <div id="rightnav">
+        <NavButton client:load />
+      </div>
+    </nav>
+
     <slot />
   </body>
 </html>
