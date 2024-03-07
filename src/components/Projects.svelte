@@ -5,7 +5,7 @@
   import Button from "./Button.svelte";
   import CalcImage from "../images/calculator.webp";
   import Screen1 from "../images/screen1.webp";
-  import Filler from "../images/filler.webp";
+  import LeetCode from "../images/leetcode.webp";
   import Github from "../icons/Github.svelte";
   import Link from "../icons/Link.svelte";
 </script>
@@ -80,16 +80,14 @@
       <div class="card">
         <div class="card_content">
           <div class="imagecontaine">
-            <img src={Filler.src} alt="haii^_^" class="card_img" />
+            <img src={LeetCode.src} alt="haii^_^" class="card_img" />
           </div>
           <span
             class="text-m hubot projectNameText"
-            style="color: var(--jpurple)">Under Construction</span
+            style="color: var(--jpurple)">LeetCode</span
           >
           <div class="projectText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            maximus sem magna, vitae bibendum lectus eleifend vel. Sed sit amet
-            massa tincidunt enim dapibus mattis
+            LeetCode practice with time and memory stats for each problem. All original attempts and solutions produced by me.
           </div>
         </div>
         <div class="footer">
@@ -97,14 +95,14 @@
             class="links"
             target="_blank"
             rel="noopener"
-            href="https://github.com/jacobng24"
+            href="https://github.com/jacobng24/LeetCode"
             title="GitHub"><Github /></a
           >
           <a
             class="links"
             target="_blank"
             rel="noopener"
-            href="https://jacobng.dev"
+            href="https://github.com/jacobng24/LeetCode"
             title="To the !"><Link /></a
           >
         </div>
